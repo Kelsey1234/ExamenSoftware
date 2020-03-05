@@ -120,11 +120,11 @@ userCollection.push(
         {},
         userTemplate,
         {
-            fotosid:1,
-            fotostitle:"PruebaNombre",
-            fotosurl:"www.pruebadeUrl.com",
-            fotosthumbnail:"www.THUMBNAIL.com",
-            fotosalbum: "Album"
+            fotosId:1,
+            fotosTitle:"PruebaNombreCool",
+            fotosUrl:"www.pruebadeUrluse.com",
+            fotosThumbnail:"www.THUMBNAILfoto.com",
+            fotosAlbum: "AlbumCool"
         }
     )
 );
