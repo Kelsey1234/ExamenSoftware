@@ -28,6 +28,12 @@ router.put('/users/upd/:id', (req, res)=>{
     return res.status(200).json(updUser);
 });
 
+router.delete('/users/del/:id',(req,res)=>{
+ var id = parseInt(req.params.id);
+ userModel.deleteByCode(id);
+ res.status(200).json({"deleted:true"});
+
+});
 
 
 module.exports = router;
